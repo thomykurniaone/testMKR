@@ -1,0 +1,15 @@
+{
+    "name": "cermati-test-automation",
+    "version": "1.0.0",
+    "description": "Project with POM framework structure",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "cypress:runDefault": "cypress run --spec cypress/e2e/trest.cy.js --browser brave"
+    },
+    "author": "Thomy Kurniawan",
+    "license": "ISC",
+    "devDependencies": {
+        "cypress": "^13.15.0"
+    }
+}
